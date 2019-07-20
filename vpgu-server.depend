@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1563645176 source:/home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.c
+	<winsock2.h>
+	<ws2tcpip.h>
+	<mstcpip.h>
+	"missing_from_mstcpip.h"
+	<windows.h>
+	<unistd.h>
+	<netdb.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<sys/time.h>
+	<netinet/in.h>
+	<netinet/tcp.h>
+	<arpa/inet.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<signal.h>
+	<errno.h>
+	<limits.h>
+	<stddef.h>
+	"dyad.h"
+
+1563639602 /home/olsen/Documents/Test Network/codeblocks/dyad/src/missing_from_mstcpip.h
+
+1563639676 /home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.h
+	<stdarg.h>
+	<windows.h>
+
+1563649732 source:/home/olsen/Documents/Test Network/codeblocks/vgpu-server/main.c
+	<stdio.h>
+	<stdlib.h>
+	"../dyad/src/dyad.h"
+
