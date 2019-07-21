@@ -8,25 +8,42 @@
 #include <stdlib.h>
 
 #include "../dyad/src/dyad.h"
+
+#define txtServerVersion "vGPU server Version 1.0 alpha\0"
+#define intServerPort 8000
+
 void wellcomeMsg();
+int vgpu_cmd(dyad_Event *e);
 
 
-/* An echo server: Echos any data received by a client back to the client */
+
 
 static void onData(dyad_Event *e) {
-  printf("server onData : %s\n", e->data);
-  dyad_write(e->stream, e->data, e->size);
+
+  int err;
+  printf("Server onData: %s\n", e->data);
+  err = vgpu_cmd(e);
+  if (err != 0) {
+    // ToDo close this steam instead do hard exit
+   // exit(-1);
+  }
+
 }
 
 static void onAccept(dyad_Event *e) {
-  printf("server onAccept : %s\n", e->data);
+
+  printf("server onAccept: %s\n", e->msg);
+
   dyad_addListener(e->remote, DYAD_EVENT_DATA, onData, NULL);
-  dyad_writef(e->remote, "echo server\r\n");
+
+  // write back hello msg
+  dyad_writef(e->remote, "%s", txtServerVersion);
 }
 
 static void onError(dyad_Event *e) {
   printf("server error: %s\n", e->msg);
 }
+
 
 int main(void) {
 
@@ -38,17 +55,22 @@ int main(void) {
   s = dyad_newStream();
   dyad_addListener(s, DYAD_EVENT_ERROR,  onError,  NULL);
   dyad_addListener(s, DYAD_EVENT_ACCEPT, onAccept, NULL);
-  dyad_listen(s, 8000);
+  dyad_listen(s, intServerPort);
 
-  while (dyad_getStreamCount() > 0) {
-    dyad_update();
+  while (1) {
+
+    while (dyad_getStreamCount() > 0) {
+        dyad_update();
+    }
+
   }
+
 
   return 0;
 }
 
 void wellcomeMsg() {
-    printf("Wellcome to vGPU server Version 1.0 alpha\nIt need better name\n");
+    printf("Wellcome to %s\nIt need better name\n",txtServerVersion);
     printf("it is a exprement server see if opengl commands can be transfer\n");
     printf("over a network.\nFrom Windows XP/VISTA/7/8/8.1/10 32bits opengl client to Debian 64bits Opengl\n\n");
     printf("The server can be compile to 32bit instead for 64bits,\nIt can even be compile and run on windows NT XP or higher\n");
