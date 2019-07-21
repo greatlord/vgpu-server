@@ -1,15 +1,19 @@
 
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
 #include <stdint.h>
 
-#include "../dyad/src/dyad.h"
+
+
+#include "../../dyad/src/dyad.h"
 
 #include "vgpu-common.h"
 
-#define MAX_VGPU_CLIENTS    255
+#define MAX_VGPU_CLIENTS    256
 
 // global value only use here
 int vgpu_client_id = -1;
@@ -58,7 +62,9 @@ int createNewClientId( PVGPU_TRANS_HEAD head, dyad_Event *e ) {
 
 int vgpu_check_if_client_is_vaild(PVGPU_TRANS_HEAD head, dyad_Event *e  ) {
 
-  // check if it a vgpu client
+	int ret;
+
+	// check if it a vgpu client
     ret = vpgu_check_client_version(head, e->size);
     if (!ret) {
         // no gpu client found
@@ -66,7 +72,7 @@ int vgpu_check_if_client_is_vaild(PVGPU_TRANS_HEAD head, dyad_Event *e  ) {
     }
 
     // client ask for new clientid
-    ret = createNewClientId(head);
+    ret = createNewClientId(head, e);
     if ( ret == -2 ) {
         // out of of ClientIds
         return -2;

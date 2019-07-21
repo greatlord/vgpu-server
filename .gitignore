@@ -1,0 +1,11 @@
+
+.vs/vgpu-server/v16/.suo
+.vs/vgpu-server/v16/Browse.VC.db
+*.ipch
+*.obj
+*.idb
+*.pdb
+*.log
+*.tlog
+vgpu-server/.vs/vgpu-server/v16/Browse.VC.db
+vgpu-server/.vs/vgpu-server/v16/.suo

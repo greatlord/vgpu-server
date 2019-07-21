@@ -2,12 +2,12 @@
 //
 // Copyright by Magnus Olsen 2019 under GPL 2.0 or close source licens by Magnus Olsen writen premitions.
 //
-#define _WIN32_WINNT 0x501
+//#define _WIN32_WINNT 0x501
 
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../dyad/src/dyad.h"
+#include "../../dyad/src/dyad.h"
 
 #define txtServerVersion "vGPU server Version 1.0 alpha\0"
 #define intServerPort 8000
