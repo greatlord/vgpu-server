@@ -9,3 +9,5 @@
 *.tlog
 vgpu-server/.vs/vgpu-server/v16/Browse.VC.db
 vgpu-server/.vs/vgpu-server/v16/.suo
+Debug/vgpu-server.ilk
+*.exe
