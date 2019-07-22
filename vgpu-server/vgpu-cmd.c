@@ -22,14 +22,15 @@ VPGU_CLIENT_TRACK vgpu_client_track[MAX_VGPU_CLIENTS];
 
 int vpgu_check_client_version( PVGPU_TRANS_HEAD head, int size ) {
 
-    if ( size < sizeof(VGPU_TRANS_HEAD) ) {
-        return -1;
-    }
+    if ( head->clientId == -1 ) {
+        if ( size < sizeof(VGPU_TRANS_HEAD) ) {
+            return -1;
+        }
 
-    if ( strcmp( head->txtVersion, txtClientVersion) != 0) {
-        return -1;
+        if ( strcmp( head->txtVersion, txtClientVersion) != 0) {
+            return -1;
+        }
     }
-
     return 1;
 }
 
@@ -84,6 +85,8 @@ int vgpu_check_if_client_is_vaild(PVGPU_TRANS_HEAD head, dyad_Event *e  ) {
 }
 
 
+#define VGPU_CMD_HELLO  0
+
 int vgpu_cmd(dyad_Event *e) {
 
     int ret;
@@ -108,9 +111,18 @@ int vgpu_cmd(dyad_Event *e) {
         return 0;
     }
 
+    switch ( head->cmd ) {
+        case VGPU_CMD_HELLO:            
+            dyad_write(e->stream, e->data, e->size);
+            break;
+
+        default:
+            dyad_write(e->stream, e->data, e->size);
+    }
+
     // we got data to *e
     // send back same data
-   // dyad_write(e->stream, e->data, e->size);
+    dyad_write(e->stream, e->data, e->size);
 
     return 0;
 }

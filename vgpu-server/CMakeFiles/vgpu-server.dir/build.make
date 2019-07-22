@@ -70,22 +70,35 @@ CMakeFiles/vgpu-server.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vgpu-server.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/main.c" -o CMakeFiles/vgpu-server.dir/main.c.s
 
-CMakeFiles/vgpu-server.dir/vgpu_cmd.c.o: CMakeFiles/vgpu-server.dir/flags.make
-CMakeFiles/vgpu-server.dir/vgpu_cmd.c.o: vgpu_cmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/vgpu-server.dir/vgpu_cmd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vgpu-server.dir/vgpu_cmd.c.o   -c "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu_cmd.c"
+CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o: CMakeFiles/vgpu-server.dir/flags.make
+CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o: vgpu-cmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o   -c "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu-cmd.c"
 
-CMakeFiles/vgpu-server.dir/vgpu_cmd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vgpu-server.dir/vgpu_cmd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu_cmd.c" > CMakeFiles/vgpu-server.dir/vgpu_cmd.c.i
+CMakeFiles/vgpu-server.dir/vgpu-cmd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vgpu-server.dir/vgpu-cmd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu-cmd.c" > CMakeFiles/vgpu-server.dir/vgpu-cmd.c.i
 
-CMakeFiles/vgpu-server.dir/vgpu_cmd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vgpu-server.dir/vgpu_cmd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu_cmd.c" -o CMakeFiles/vgpu-server.dir/vgpu_cmd.c.s
+CMakeFiles/vgpu-server.dir/vgpu-cmd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vgpu-server.dir/vgpu-cmd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu-cmd.c" -o CMakeFiles/vgpu-server.dir/vgpu-cmd.c.s
+
+CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.o: CMakeFiles/vgpu-server.dir/flags.make
+CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.o: load-gpu-opencl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.o   -c "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/load-gpu-opencl.c"
+
+CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/load-gpu-opencl.c" > CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.i
+
+CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/load-gpu-opencl.c" -o CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.s
 
 CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.o: CMakeFiles/vgpu-server.dir/flags.make
 CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.o: /home/olsen/Documents/Test\ Network/codeblocks/dyad/src/dyad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.o   -c "/home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.c"
 
 CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.i: cmake_force
@@ -99,18 +112,20 @@ CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src
 # Object files for target vgpu-server
 vgpu__server_OBJECTS = \
 "CMakeFiles/vgpu-server.dir/main.c.o" \
-"CMakeFiles/vgpu-server.dir/vgpu_cmd.c.o" \
+"CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o" \
+"CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.o" \
 "CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.o"
 
 # External object files for target vgpu-server
 vgpu__server_EXTERNAL_OBJECTS =
 
 vgpu-server: CMakeFiles/vgpu-server.dir/main.c.o
-vgpu-server: CMakeFiles/vgpu-server.dir/vgpu_cmd.c.o
+vgpu-server: CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o
+vgpu-server: CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.o
 vgpu-server: CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.o
 vgpu-server: CMakeFiles/vgpu-server.dir/build.make
 vgpu-server: CMakeFiles/vgpu-server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable vgpu-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable vgpu-server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vgpu-server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

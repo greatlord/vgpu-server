@@ -25,4 +25,6 @@ typedef struct {
 int vpgu_check_client_version( PVGPU_TRANS_HEAD head, int size );
 int createNewClientId( PVGPU_TRANS_HEAD head, dyad_Event *e );
 
+// commands
+#define VGPU_CMD_HELLO  0
 

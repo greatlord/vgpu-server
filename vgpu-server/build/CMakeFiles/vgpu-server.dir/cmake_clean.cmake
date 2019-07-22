@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vgpu-server.dir/main.c.o"
-  "CMakeFiles/vgpu-server.dir/vgpu_cmd.c.o"
+  "CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o"
+  "CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.o"
   "CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.o"
   "vgpu-server.pdb"
   "vgpu-server"

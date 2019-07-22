@@ -4,10 +4,13 @@
 CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.o: /home/olsen/Documents/Test\ Network/codeblocks/dyad/src/dyad.c
 CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.o: /home/olsen/Documents/Test\ Network/codeblocks/dyad/src/dyad.h
 
+CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.o: load-gou-opencl-int.h
+CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.o: load-gpu-opencl.c
+
 CMakeFiles/vgpu-server.dir/main.c.o: /home/olsen/Documents/Test\ Network/codeblocks/dyad/src/dyad.h
 CMakeFiles/vgpu-server.dir/main.c.o: main.c
 
-CMakeFiles/vgpu-server.dir/vgpu_cmd.c.o: /home/olsen/Documents/Test\ Network/codeblocks/dyad/src/dyad.h
-CMakeFiles/vgpu-server.dir/vgpu_cmd.c.o: vgpu-common.h
-CMakeFiles/vgpu-server.dir/vgpu_cmd.c.o: vgpu_cmd.c
+CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o: /home/olsen/Documents/Test\ Network/codeblocks/dyad/src/dyad.h
+CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o: vgpu-cmd.c
+CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o: vgpu-common.h
 

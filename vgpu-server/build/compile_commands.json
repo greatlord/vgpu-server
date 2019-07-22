@@ -6,8 +6,13 @@
 },
 {
   "directory": "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/build",
-  "command": "/bin/x86_64-linux-gnu-gcc-8   -g   -o CMakeFiles/vgpu-server.dir/vgpu_cmd.c.o   -c \"/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu_cmd.c\"",
-  "file": "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu_cmd.c"
+  "command": "/bin/x86_64-linux-gnu-gcc-8   -g   -o CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o   -c \"/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu-cmd.c\"",
+  "file": "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu-cmd.c"
+},
+{
+  "directory": "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/build",
+  "command": "/bin/x86_64-linux-gnu-gcc-8   -g   -o CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.o   -c \"/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/load-gpu-opencl.c\"",
+  "file": "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/load-gpu-opencl.c"
 },
 {
   "directory": "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/build",
