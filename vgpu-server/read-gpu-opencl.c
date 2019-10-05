@@ -38,6 +38,7 @@ void readVgpu_clBuildProgram (dyad_Stream *stream, const void *data, int size) {
 void readVgpu_clCreateBuffer(dyad_Stream *stream, const void *data, int size) {
 
     // todo : not implement yet
+    //runVgpu_clCreateBuffer();
 
     // send back same data
     dyad_write( stream, data, size);
@@ -508,6 +509,15 @@ void readVgpu_clGetProgramBuildInfo(dyad_Stream *stream, const void *data, int s
 
 }
 
+void readVgpu_clGetProgramInfo(dyad_Stream *stream, const void *data, int size) {
+
+    // todo : not implement yet
+
+    // send back same data
+    dyad_write( stream, data, size);
+
+}
+
 void readVgpu_clGetSamplerInfo(dyad_Stream *stream, const void *data, int size) {
 
     // todo : not implement yet
@@ -539,6 +549,24 @@ void readVgpu_clReleaseCommandQueue(dyad_Stream *stream, const void *data, int s
 void readVgpu_clReleaseContext(dyad_Stream *stream, const void *data, int size) {
 
     // todo : not implement yet
+
+    // send back same data
+    dyad_write( stream, data, size);
+
+}
+
+void readVgpu_clReleaseEvent(dyad_Stream *stream, const void *data, int size) {
+
+    // todo : not implement yet
+
+    // send back same data
+    dyad_write( stream, data, size);
+
+}
+
+void readVgpu_clReleaseKernel(dyad_Stream *stream, const void *data, int size) {
+
+     // todo : not implement yet
 
     // send back same data
     dyad_write( stream, data, size);

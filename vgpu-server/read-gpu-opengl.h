@@ -190,10 +190,13 @@ void readVgpu_clGetMemObjectInfo(dyad_Stream *stream, const void *data, int size
 void readVgpu_clGetPlatformIDs(dyad_Stream *stream, const void *data, int size);
 void readVgpu_clGetPlatformInfo(dyad_Stream *stream, const void *data, int size);
 void readVgpu_clGetProgramBuildInfo(dyad_Stream *stream, const void *data, int size);
+void readVgpu_clGetProgramInfo(dyad_Stream *stream, const void *data, int size);
 void readVgpu_clGetSamplerInfo(dyad_Stream *stream, const void *data, int size);
 void readVgpu_clGetSupportedImageFormats(dyad_Stream *stream, const void *data, int size);
 void readVgpu_clReleaseCommandQueue(dyad_Stream *stream, const void *data, int size);
 void readVgpu_clReleaseContext(dyad_Stream *stream, const void *data, int size);
+void readVgpu_clReleaseEvent(dyad_Stream *stream, const void *data, int size);
+void readVgpu_clReleaseKernel(dyad_Stream *stream, const void *data, int size);
 void readVgpu_clReleaseMemObject(dyad_Stream *stream, const void *data, int size);
 void readVgpu_clReleaseProgram(dyad_Stream *stream, const void *data, int size);
 void readVgpu_clReleaseSampler(dyad_Stream *stream, const void *data, int size);

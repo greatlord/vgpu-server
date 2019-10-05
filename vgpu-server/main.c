@@ -44,6 +44,7 @@ static void onError(dyad_Event *e) {
   printf("server error: %s\n", e->msg);
 }
 
+void loadopencl();
 
 int main(void) {
 
@@ -51,6 +52,7 @@ int main(void) {
 
   dyad_Stream *s;
   dyad_init();
+  loadopencl();
 
   s = dyad_newStream();
   dyad_addListener(s, DYAD_EVENT_ERROR,  onError,  NULL);

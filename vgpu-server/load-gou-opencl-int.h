@@ -1,6 +1,7 @@
 
 #include <CL/opencl.h>
 
+/*
 cl_int (*cllib_clBuildProgram) (cl_program program,
                 cl_uint              num_devices,
                 const cl_device_id * device_list,
@@ -8,6 +9,13 @@ cl_int (*cllib_clBuildProgram) (cl_program program,
                 void (CL_CALLBACK *  pfn_notify)(cl_program program,
                 void * user_data),
                 void * user_data) ;
+
+
+    cllib_clBuildProgram = dlsym(vgpu_server_opencl_lib,"clBuildProgram");    
+    if ((err = dlerror()) != NULL) {
+       cllib_clBuildProgram = 0;
+    }
+    */
 
 cl_int runVgpu_clBuildProgram (cl_program program,
                 cl_uint              num_devices,
