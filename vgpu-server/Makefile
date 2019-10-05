@@ -601,6 +601,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/vgpu-server.dir/build.make CMakeFiles/vgpu-server.dir/main.c.s
 .PHONY : main.c.s
 
+read-gpu-opencl.o: read-gpu-opencl.c.o
+
+.PHONY : read-gpu-opencl.o
+
+# target to build an object file
+read-gpu-opencl.c.o:
+	$(MAKE) -f CMakeFiles/vgpu-server.dir/build.make CMakeFiles/vgpu-server.dir/read-gpu-opencl.c.o
+.PHONY : read-gpu-opencl.c.o
+
+read-gpu-opencl.i: read-gpu-opencl.c.i
+
+.PHONY : read-gpu-opencl.i
+
+# target to preprocess a source file
+read-gpu-opencl.c.i:
+	$(MAKE) -f CMakeFiles/vgpu-server.dir/build.make CMakeFiles/vgpu-server.dir/read-gpu-opencl.c.i
+.PHONY : read-gpu-opencl.c.i
+
+read-gpu-opencl.s: read-gpu-opencl.c.s
+
+.PHONY : read-gpu-opencl.s
+
+# target to generate assembly for a file
+read-gpu-opencl.c.s:
+	$(MAKE) -f CMakeFiles/vgpu-server.dir/build.make CMakeFiles/vgpu-server.dir/read-gpu-opencl.c.s
+.PHONY : read-gpu-opencl.c.s
+
 vgpu-cmd.o: vgpu-cmd.c.o
 
 .PHONY : vgpu-cmd.o
@@ -677,6 +704,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... read-gpu-opencl.o"
+	@echo "... read-gpu-opencl.i"
+	@echo "... read-gpu-opencl.s"
 	@echo "... vgpu-cmd.o"
 	@echo "... vgpu-cmd.i"
 	@echo "... vgpu-cmd.s"

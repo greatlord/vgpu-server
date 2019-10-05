@@ -11,3 +11,8 @@ vgpu-server/.vs/vgpu-server/v16/Browse.VC.db
 vgpu-server/.vs/vgpu-server/v16/.suo
 Debug/vgpu-server.ilk
 *.exe
+vgpu-server/build/CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o
+vgpu-server/build/CMakeFiles/vgpu-server.dir/read-gpu-opencl.c.o
+vgpu-server/build/CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.o
+vgpu-server/CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o
+vgpu-server/CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o

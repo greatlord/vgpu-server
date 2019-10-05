@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.c" "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.o"
   "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/load-gpu-opencl.c" "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/CMakeFiles/vgpu-server.dir/load-gpu-opencl.c.o"
   "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/main.c" "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/CMakeFiles/vgpu-server.dir/main.c.o"
+  "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/read-gpu-opencl.c" "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/CMakeFiles/vgpu-server.dir/read-gpu-opencl.c.o"
   "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu-cmd.c" "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/CMakeFiles/vgpu-server.dir/vgpu-cmd.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

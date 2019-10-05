@@ -6,54 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.c
-winsock2.h
--
-ws2tcpip.h
--
-mstcpip.h
--
-windows.h
--
-unistd.h
--
-netdb.h
--
-fcntl.h
--
-sys/types.h
--
-sys/socket.h
--
-sys/un.h
--
-sys/time.h
--
-netinet/in.h
--
-netinet/tcp.h
--
-arpa/inet.h
--
-stdio.h
--
-stdlib.h
--
-string.h
--
-stdarg.h
--
-signal.h
--
-errno.h
--
-limits.h
--
-stddef.h
--
-dyad.h
-/home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.h
-
 /home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.h
 stdarg.h
 -
@@ -82,13 +34,27 @@ CL/opencl.h
 load-gou-opencl-int.h
 /home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/load-gou-opencl-int.h
 
-/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/main.c
+/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/read-gpu-opencl.c
 stdio.h
 -
 stdlib.h
 -
+string.h
+-
+stdbool.h
+-
+stdint.h
+-
+CL/opencl.h
+-
 ../../dyad/src/dyad.h
 /home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.h
+load-gou-opencl-int.h
+/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/load-gou-opencl-int.h
+read-gpu-opengl.h
+/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/read-gpu-opengl.h
+
+/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/read-gpu-opengl.h
 
 /home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu-cmd.c
 stdio.h
@@ -101,10 +67,14 @@ stdbool.h
 -
 stdint.h
 -
+CL/opencl.h
+-
 ../../dyad/src/dyad.h
 /home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.h
 vgpu-common.h
 /home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu-common.h
+read-gpu-opengl.h
+/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/read-gpu-opengl.h
 
 /home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/vgpu-common.h
 

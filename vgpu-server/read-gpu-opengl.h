@@ -2,7 +2,8 @@
 
 // CMD commands
 // OpenCL 1.0 API
-
+    #define VGPU_CMD_TYPE_CL    0x100
+    
     #define VGPU_CMD_CLBUILDPROGRAM                             VGPU_CMD_TYPE_CL | 0
     #define VGPU_CMD_CLCREATEBUFFER                             VGPU_CMD_TYPE_CL | 1
     #define VGPU_CMD_CLCREATECOMMANDQUEUE                       VGPU_CMD_TYPE_CL | 3

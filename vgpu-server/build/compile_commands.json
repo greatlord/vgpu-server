@@ -16,6 +16,11 @@
 },
 {
   "directory": "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/build",
+  "command": "/bin/x86_64-linux-gnu-gcc-8   -g   -o CMakeFiles/vgpu-server.dir/read-gpu-opencl.c.o   -c \"/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/read-gpu-opencl.c\"",
+  "file": "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/read-gpu-opencl.c"
+},
+{
+  "directory": "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/build",
   "command": "/bin/x86_64-linux-gnu-gcc-8   -g   -o CMakeFiles/vgpu-server.dir/home/olsen/Documents/Test_Network/codeblocks/dyad/src/dyad.c.o   -c \"/home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.c\"",
   "file": "/home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.c"
 }

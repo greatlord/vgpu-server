@@ -4,7 +4,7 @@ project(vgpu-server VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(vgpu-server main.c vgpu-cmd.c load-gpu-opencl.c ../../dyad/src/dyad.c )
+add_executable(vgpu-server main.c vgpu-cmd.c load-gpu-opencl.c read-gpu-opencl.c ../../dyad/src/dyad.c )
 
 target_link_libraries( vgpu-server  dl)
 

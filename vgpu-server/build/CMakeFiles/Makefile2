@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vg
 CMakeFiles/vgpu-server.dir/all:
 	$(MAKE) -f CMakeFiles/vgpu-server.dir/build.make CMakeFiles/vgpu-server.dir/depend
 	$(MAKE) -f CMakeFiles/vgpu-server.dir/build.make CMakeFiles/vgpu-server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/build/CMakeFiles" --progress-num=1,2,3,4,5 "Built target vgpu-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target vgpu-server"
 .PHONY : CMakeFiles/vgpu-server.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/vgpu-server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vgpu-server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/build/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/build/CMakeFiles" 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vgpu-server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/build/CMakeFiles" 0
 .PHONY : CMakeFiles/vgpu-server.dir/rule
