@@ -6,25 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/load-gou-opencl-int.h
-CL/opencl.h
+/home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.h
+stdarg.h
+-
+windows.h
 -
 
-/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/load-gpu-opencl.c
+/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/main.c
 stdio.h
 -
 stdlib.h
 -
-string.h
--
-stdbool.h
--
-stdint.h
--
-dlfcn.h
--
-CL/opencl.h
--
-load-gou-opencl-int.h
-/home/olsen/Documents/Test Network/codeblocks/vgpu-server/vgpu-server/load-gou-opencl-int.h
+../../dyad/src/dyad.h
+/home/olsen/Documents/Test Network/codeblocks/dyad/src/dyad.h
 
